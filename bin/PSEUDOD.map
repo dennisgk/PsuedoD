@@ -1,0 +1,153 @@
+Section          Base   Top    High   Length
+---------------- ------ ------ ------ -------
+.icon            D1A882 D1A99D           11Bh
+.init.libs       D1A99D D1A9F5            58h
+.libs            D1A9F5 D1AA62            6Dh
+.init.clock      D1AA62 D1AA62             0h
+.init.reruncheck D1AA62 D1AA62             0h
+.init            D1AA62 D1AA8C            2Ah
+.fini            D1AA8C D1AAC0            34h
+.text            D1AAC0 D1D978          2EB8h
+.data            D1D978 D1E28D           915h
+.rodata          D1E28D D1E33D            B0h
+.init_array      000000 000000             0h
+.ctors           000000 000000             0h
+.dtors           000000 000000             0h
+.fini_array      000000 000000             0h
+.bss             D052C6 D052CC D13FD8      6h
+.header          D1A87F D1A882             3h
+
+Label                                  Value
+------------------------------------   ------
+___low_bss                           = D052C6
+___len_bss                           = 000006
+___heaptop                           = D13FD8
+___heapbot                           = D052CC
+___libs                              = D1A9F5
+___init_array_count                  = 000000
+___ctors_count                       = 000000
+___dtors_count                       = 000000
+___fini_array_count                  = 000000
+__stack                              = D1A87E
+_atomic_load_increasing_32           = D1AAC0
+_os_DisableHomeTextBuffer            = D1AAE5
+_os_EnableHomeTextBuffer             = D1AAF7
+_random                              = D1AB09
+__setstate                           = D1AB67
+__state                              = D1D978
+_os_RealToStr                        = 021CB4
+_os_FloatToReal                      = 022170
+__bdivu                              = D1AB77
+_free                                = D1AB8D
+_malloc                              = D1AC36
+__alloc_base                         = D052C6
+_calloc                              = D1ACD2
+__frameset                           = D1ACF0
+__frameset0                          = D1ACFE
+_memset                              = D1AD09
+_sbrk                                = D1AD20
+__sbrkbase                           = D1D988
+__fadd                               = 000270
+__fcmp                               = 000274
+__fdiv                               = 000278
+__fmul                               = 000288
+__fsub                               = 000290
+__ftol                               = 00027C
+__iand                               = 000134
+__idivs                              = 00013C
+__imulu                              = 000158
+__ior                                = 000168
+__irems                              = 00016C
+__land                               = 0001A4
+__lshrs                              = 0001E8
+__lshru                              = 0001EC
+__lsub                               = 0001F8
+__ltof                               = 000284
+__lxor                               = 0001FC
+__sand                               = 000200
+__setflag                            = 000218
+__sor                                = 000234
+__ultof                              = 000280
+_srand                               = D1AD3E
+.missingappvar                       = D1E28D
+.libloadname                         = D1E292
+.libloadnamelen                      = 000007
+.webaddress                          = D1E29A
+__start                              = D1AA62
+___exithl                            = D1AA8C
+skip._exit                           = D1AA8C
+skip.__Exit                          = D1AA8C
+skip._abort                          = D1AA8C
+_exit.sp                             = D1AA8D
+_exit.flash_wait_states              = D1AA97
+_MovePlayerForwards                  = D1AD46
+_MovePlayerBackwards                 = D1AE2D
+_RotatePlayerLeft                    = D1AF14
+_RotatePlayerRight                   = D1B0CA
+_RemoveEnemyFromMap                  = D1B290
+_AddEnemyToMap                       = D1B3BD
+_RenderPlayerInMap                   = D1B488
+_PlayerShoot                         = D1BE97
+_DrawPlayerWeapon                    = D1BFFC
+_RandomMapPosition                   = D1C03D
+_SimpleEnemyAI                       = D1C186
+_DrawPlayerHealth                    = D1C390
+_getElapsed                          = D1C3C0
+_GameLoop                            = D1C3DE
+_map1ColorBindings                   = D1D98B
+_map1WorldMap                        = D1D997
+_absf_s                              = D1C9C9
+_negf_s                              = D1C9E0
+_cosf                                = D1C9F7
+_sinf                                = D1CAAF
+_cosf_s                              = D1CB7A
+_sinf_s                              = D1CC2D
+_sinf_sc                             = D1CCE0
+_tanf                                = D1CDB2
+_tanf_s                              = D1CE36
+_arcsinf                             = D1CEE9
+_sqrt_f                              = D1CF42
+_arcsinf_s                           = D1CF67
+_isqrt_f                             = D1CFE9
+_arccosf_s                           = D1D04C
+_toTrigBounds                        = D1D07C
+_g1_data                             = D1DBD7
+_g2_data                             = D1DD69
+_g3_data                             = D1DEFB
+_gtia_palette                        = D1E08D
+_CombineStrings                      = D1D12A
+_float2str                           = D1D232
+_PrintScores                         = D1D26E
+_MenuLoop                            = D1D6B6
+_main                                = D1D933
+L_.str                               = D1E2AF
+L_.str.1                             = D1E2C0
+L_.str.2                             = D1E2C9
+L_.str.3                             = D1E2CF
+L_.str.4                             = D1E2DF
+L_.str.5                             = D1E2FA
+L_.str.6                             = D1E308
+L_.str.7                             = D1E30A
+L_.str.8                             = D1E30D
+L_.str.9                             = D1E327
+L_.str.10                            = D1E33B
+_#ti_Open                            = D1A9FF
+_#ti_Close                           = D1AA03
+_#ti_Write                           = D1AA07
+_#ti_Read                            = D1AA0B
+_#ti_SetArchiveStatus                = D1AA0F
+_#gfx_Begin                          = D1AA1C
+_#gfx_End                            = D1AA20
+_#gfx_SetColor                       = D1AA24
+_#gfx_SetPalette                     = D1AA28
+_#gfx_SetDraw                        = D1AA2C
+_#gfx_SwapDraw                       = D1AA30
+_#gfx_PrintStringXY                  = D1AA34
+_#gfx_SetTextFGColor                 = D1AA38
+_#gfx_FillCircle                     = D1AA3C
+_#gfx_FillRectangle                  = D1AA40
+_#gfx_FillRectangle_NoClip           = D1AA44
+_#gfx_ScaledTransparentSprite_NoClip = D1AA48
+_#gfx_SetTransparentColor            = D1AA4C
+_#gfx_ZeroScreen                     = D1AA50
+_#kb_Scan                            = D1AA5E

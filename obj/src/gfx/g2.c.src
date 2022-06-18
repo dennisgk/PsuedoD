@@ -1,0 +1,8 @@
+	section	.text,"ax",@progbits
+	assume	adl = 1
+	section	.data,"aw",@progbits
+	public	_g2_data
+_g2_data:
+	db	"XXXXXXXXXX""XXXXXXXXXXXXXXXXXFNK!XXXXXXXXXXXXXXX#IOFXXXXXXXXXXXXXXGOM4XXXXXXXXXXXXX4K", 13, "I2XXXXXXXXXXXXFON$4ONFXXXXXXXXXXX""GM$#KG2XXXXXXXXXXXF4 %#", 0, "F4XXXXXXXXXXXXX XXXXXXXXXXXXX	", 0, "XXXXXXXXXXXXXX", 0, 0, 0, "XXXXXXXXXXXXXX", 0, "XXXXXXXXXXXX""%", 0, "XXXXXXXXXXX#""", 0, 0, "##XXXXXXXXXX%$LM#XXXXXXXX""#%K$XXXXXXXX!#%K""XXXXXXXX $#$XXXXXXXXXX$$!XXXXXXXXX#%%"" ", 0, "XXXXXX"
+
+	ident	"clang version 14.0.0 (https://github.com/jacobly0/llvm-project a139def90d26173f771eb1eca797633d1fbb2797)"

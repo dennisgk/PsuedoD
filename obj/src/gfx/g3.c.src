@@ -1,0 +1,8 @@
+	section	.text,"ax",@progbits
+	assume	adl = 1
+	section	.data,"aw",@progbits
+	public	_g3_data
+_g3_data:
+	db	"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", 0, "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", 0, "XXXXXXXXXXXXX", 0, 0, "", 0, "XXXXXXXXXXXXX", 0, 0, "", 0, "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", 0, "XXXXXXXXXX#", 0, 0, 0, "XXXXXXXXXêê", 0, 0, " XXXXXXXX%êê$""!$êê% XXXXXX%êêêêê%êLLê#XXXXXX##%êê%êêêêêê! XXXXXX""#$%êêêKêê$ XXXX"
+
+	ident	"clang version 14.0.0 (https://github.com/jacobly0/llvm-project a139def90d26173f771eb1eca797633d1fbb2797)"
